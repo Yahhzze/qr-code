@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+:root {
+    --cor0:hsl(0, 0%, 100%);
+    --cor1:hsl(212, 45%, 89%);
+    --cor3:hsl(220, 15%, 55%);
+    --cor4:hsl(218, 44%, 22%);
+
+    --font-destaque: 'Outfit', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #D6E1F0;
+}
+
+.qr-code {
+    width: 250px;
+    height: 400px;
+    background-color: white;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+img {
+    border-radius: 10px;
+    width: 230px;
+    height: 230px;
+    margin-top: 20px;
+}
+
+.qr-code > h1 {
+    font-size: 18px;
+    color: var(--cor4);
+    margin: 15px;
+    font-weight: bolder;
+    font-family: var(--font-destaque);
+}
+
+.qr-code > p {
+    font-size: 13px;
+    margin: 15px;
+    color: var(--cor3);
+    font-family: var(--font-destaque);
+
+}
+
+.rodape {
+    bottom: 0;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+}
+
+footer {
+    background-color: hsl(213, 63%, 84%);
+    padding: 3px;
+}
+
+a {
+    color: var(--cor4);
+    text-decoration: none;
+    margin: 5px;
+}
+
+a:hover {
+    transition: 0.5s;
+    border-radius: 2px;
+    background-color: var(--cor4);
+    color: var(--cor3);
+    padding: 2px;
+}
