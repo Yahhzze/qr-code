@@ -21,11 +21,11 @@ body {
 }
 
 .qr-code {
-    width: 250px;
-    height: 400px;
+    width: 264px;
+    height: 415px;
     background-color: white;
     margin: auto;
-    margin-top: 40px;
+    margin-top: 8%;
     border-radius: 10px;
     text-align: center;
 }
